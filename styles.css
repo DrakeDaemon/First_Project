@@ -1,13 +1,24 @@
+* {
+    font-family: geometria;
+}
 
-
-
-
-body {
+.body {
     background-color: black;
 }
 
 .header {
-    font-family: geometria;
+    font-size: 50px;
+    color: whitesmoke;
+    padding-left: 30%;
+}
+
+.paragraph {
+    color: whitesmoke;
+    padding-left: 30%;
+    font-size: xx-large;
+}
+
+.headerc {
     font-size: 100px;
     padding-top: 150px;
     color: whitesmoke;
@@ -16,21 +27,21 @@ body {
     margin-bottom: -10px;
 }
 
-.paragraph {
-    font-family: geometria;
+.paragraphf {
     font-size: 15px;
     text-align: center;
     color: rgba(245, 245, 245, 0.1);
 }
 
 .button {
+    text-align: center;
+    text-decoration: none;
     border-radius: 10px;
     border-width: 2px;
     border-color: whitesmoke;
     background-color: black;
     color: whitesmoke;
     font-size: 40px;
-    font-family: geometria;
     font-style: medium;
     transition-duration: 0.2s;
     position: absolute;
@@ -38,19 +49,20 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
+    border-style: solid;
+    background-image: url(/images/space.jpg);
 }
 
 .button:hover {
     border-color: rgba(255, 255, 255, 0.432);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .button:active {
-    border: whitesmoke;
+    border-color: white;
 }
 
 h6 {
-    font-family: geometria;
     font-size: 15.5px;
     color: rgba(245, 245, 245, 0.1);
+    margin-top: -380px;
 }
