@@ -2,6 +2,10 @@
     font-family: geometria;
 }
 
+a {
+    color: rgba(245, 245, 245, 0.1);
+}
+
 .body {
     background-color: black;
 }
@@ -63,4 +67,15 @@ h6 {
     font-size: 15.5px;
     color: rgba(245, 245, 245, 0.1);
     margin-top: -380px;
+}
+
+/* testing containers */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: whitesmoke;
+    border: 1px whitesmoke solid;
+    border-radius: 4px;
+    gap: 30px;
+    padding: 10px;
 }
